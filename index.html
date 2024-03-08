@@ -1,5 +1,7 @@
+/-*/
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
@@ -8,11 +10,41 @@
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <style>
-    html,body {position: relative;height: 100%;}
-    body {background: #eee;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;font-size: 14px;color: #000;margin: 0;padding: 0;}
-    .swiper {width: 100%;height: 100%;}
-    .swiper-slide {text-align: center;font-size: 18px;background: #fff;display: flex;justify-content: center;align-items: center;}
-    .swiper-slide img {display: block;width: 100%;height: 100%;object-fit: cover;}
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
   </style>
 </head>
 
@@ -20,25 +52,49 @@
   <!-- Swiper -->
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
-        <div class="swiper-slide">안녕하쎄여</br>소연치</div>
-      <div class="swiper-slide">우선, 생일 축하합니다~~~~~</div>
-      <div class="swiper-slide">작년에 내가 받은 선물이</br>어마무시 해서</div>
-      <div class="swiper-slide">골똘히 생각해보았는데요. . .</div>
-      <div class="swiper-slide">4개월 학원 + 2개월 실무 뛰어서</br>배운 기술로</div>
-      <div class="swiper-slide">별 거 아니지만</br>모바일 추억앨범을 만들어보았슴니도.</div>
-      <div class="swiper-slide">저도 홈페이지만 만들다가</br>이런 거 처음해보는 거라</br>재밌기도 할 것 같구여</div>
-      <div class="swiper-slide">뭐 쨌든. 열심히 만들었습니다.</div>
-      <div class="swiper-slide">가보시죠.</div>
+      <div class="swiper-slide">안녕하쎄여</br>소연치~</div>
+      <div class="swiper-slide">우선, 생일 축하합니다~~~</div>
+      <div class="swiper-slide">이게 뭐냐그여?</div>
+      <div class="swiper-slide">허접하지만 추억팔이 사이트임니다 :></div>
+      <div class="swiper-slide">구성 목차는 뒤에서 설명드릴게여</div>
+      <div class="swiper-slide">무튼 잼게 봐주시면 되시겠어요</div>
+      <div class="swiper-slide">왜냐믄 제가 열시미 만들었그등여</div>
+      <div class="swiper-slide">그럼 바로 가보시죠.</div>
       <div class="swiper-slide last"><a href="https://jeongearth.github.io/birth02" target="_blank">구경하러 가기~</a></div>
     </div>
     <div class="swiper-pagination"></div>
   </div>
 
-<style>
-    .swiper .swiper-wrapper .last{position:relative;background: url('./images/bg_01.jpg')no-repeat center;background-size: cover;}
-    .swiper .swiper-wrapper .last a{position:absolute;top:50%; left:10%; width: 150px; height: 50px; background: #fff;border-radius: 150px;display: flex;flex-direction: column;justify-content: center;text-decoration: none;color: #7a0808;transition: 0.5s;font-size: 16px;font-weight: 600;}
-    .swiper .swiper-wrapper .last a:hover{background: #7a0808;color: #fff;}
-</style>
+  <style>
+    .swiper .swiper-wrapper .last {
+      position: relative;
+      background: url('./images/bg_01.jpg')no-repeat center;
+      background-size: cover;
+    }
+
+    .swiper .swiper-wrapper .last a {
+      position: absolute;
+      top: 50%;
+      left: 10%;
+      width: 150px;
+      height: 50px;
+      background: #fff;
+      border-radius: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-decoration: none;
+      color: #7a0808;
+      transition: 0.5s;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .swiper .swiper-wrapper .last a:hover {
+      background: #7a0808;
+      color: #fff;
+    }
+  </style>
 
 
   <!-- Swiper JS -->
